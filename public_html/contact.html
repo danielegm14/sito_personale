@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- CSS file -->
+         <link href="css/cssfile.css" rel="stylesheet">
+         
+        <!-- Icon -->
+        <link rel="icon" href="file/icon.png" sizes="16x16" type="image/png">
+        
+    </head>
+    <body>
+        <div class="cTotal"> <!-- Container total -->
+             
+                
+            <div class="cUP"> <!-- Container UP -->
+                
+                <div id="cReturnHome"> <!-- Container return home -->
+                  <a href="index.html">Daniele</a>
+                </div>                 
+                <div class="cSiteNavigation"> <!-- Container site navigation -->
+                    <a class="linkNavigation" href="about.html">about me</a>
+                    <a class="linkNavigation" href="project.html">project</a>
+                    <a href="contact.html">contact</a>
+                    
+                    
+                </div>
+            
+                
+                <div id="hormenu"><!-- Container Menu -->
+                    
+                    <ul> <!-- main list: defines the menu in the entirety -->
+                    <li>
+                        <img style="width: 30px; height: 30px; margin-top: auto;margin-bottom: auto;" src="file/menu.png" alt="menu"/>
+                        <!-- first list-item, first menu item -->
+                    <ul> <!-- Nested list: sub-menu items -->
+                    <li><a href="about.html">about me</a></li>
+                    <li><a href="project.html">project</a></li>
+                    <li><a href="contact.html">contact</a></li>
+
+                    </ul> <!-- Finish under-menu -->
+                    </li> <!-- close il list-item -->
+                    </ul>
+                </div>
+                 
+                </div>
+            
+            
+        
+        
+            <div style="background-color: #666666; display: flex; justify-content: center;">
+                <div style="margin-left: auto; margin-right: auto; margin-top: 50px">
+                 
+                    <form action="/cgi-bin/FormMail.pl" method="POST" style="color: white;">
+                        <input type="hidden" name="recipient" value="daniele.mercuri87@gmail.com.com">
+                        <input type="hidden" name="subject" value="Nuovo messaggio dal sito web!">
+                        <table border="0" cellspacing="0" cellpadding="5" align="center">
+                         <tr>
+                         <td><b> Nome e Cognome:</b></td>
+                         <td align="right"><input type=text name="realname"></td>
+                         </tr>
+                         <tr>
+                         <td><b>Email:</b></td>
+                         <td align="right"><input type=text name="email"></td>
+                         </tr>
+                         <tr>
+                         <td colspan="2"><b>Messaggio:</b></td>
+                         </tr>
+                         <tr>
+                         <td colspan="2"><textarea name="messaggio" cols="37" rows="5"></textarea></td>
+                         </tr>
+                         <tr>
+                         <td colspan="2" align="center"><input type="Submit" value="Invia"></td>
+                         </tr>
+                        </table>
+                        <input type="hidden" name="redirect" value="grazie.html">
+                        <input type="hidden" name="missing_fields_redirect" value="errore.html">
+                        <input type="hidden" name="required" value="email,realname,messaggio">
+                    </form>
+                    
+         </div>       
+                
+        </div>
+        
+        <div class="cContact"> <!-- Container Contact-->
+                
+                     
+              
+                 
+                 <div class="cUnderContact" style="clear: both;"> <!-- Under Container Contact-->
+                    
+                    <p style="Xborder: 1px red solid; margin-bottom: 5px; font-weight: bold;">
+                        Contacts
+                    </p>
+                    <address style="margin-bottom: 5px;"><a href="tel:+393482532128">+39 348 25 32 128</a></address>
+                    <address><a href="mailto:daniele.mercuri87@gmail.com">daniele.mercuri87@gmail.com</a></address>
+
+                    
+                </div>
+            
+                </div> 
+</div>
+        
+    </body>
+</html>

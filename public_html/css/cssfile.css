@@ -1,0 +1,167 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 25 ott 2022, 16:05:00
+    Author     : mrcdn
+*/
+body {Xborder: 3px red solid; font-family: Corbel, calibri, arial; margin: 0px; background: white; }
+a {text-decoration: none; color: #666666}
+a:hover{text-decoration: underline;}
+.cUP {Xborder: 1px blue solid; display: flex; justify-content: center;font-style: italic; width: 100%; margin-top: 20px; margin-bottom: 20px;}
+div#cReturnHome {Xborder: 1px red solid; Xclear: both;  margin-left: 0; width: max-content;}
+div#cReturnHome a {font-size: 24pt; font-weight: bold; text-decoration: none; color: black;}
+div#cReturnHome a:hover {text-decoration: underline;} 
+.cTitle{width: max-content; margin-top: auto; margin-bottom: auto;}
+
+
+
+.cPictureDaniele{float: left; margin-bottom: 40px; margin-right: 30px;}
+
+.cWhatandPicture{Xborder: 1px chocolate solid; display: flex; justify-content: center; background-color: #666666; 
+                  text-align: justify; word-break: break-word; width: 100%;  height: 700px; 
+                  color: white;}
+.cPicture {Xborder: 2px blue solid; margin-left:10%; width: 400px; float: right;}
+.cUnderPictureWhat {Xborder: 3px darkviolet solid; display: flex; justify-content: center; width: 90%; max-width: 1000px; margin-top: auto; margin-bottom: auto;}
+.cWhat {Xborder: 1px red solid; 
+                   Xmargin-left: 0; margin-bottom: 0; margin-top: auto; width:60%; 
+                   max-width: 500px; font-size: 14pt;}
+.cTitleNameSurname {
+                    display: flex; 
+                    justify-content: center; 
+                    height: 50vw; 
+                    max-height: 750px;
+                    background-image: url(../file/sfondotitle.png);
+                    -moz-background-size: cover; 
+                    -webkit-background-size: cover; 
+                    background-size: cover;
+                    
+}
+.cTotal {Xborder: 1px blue solid; display: contents;}
+.cUnderAphorism {Xborder: 1px blue solid; margin-top: auto; margin-bottom: auto; margin-left: 15px; margin-right: 15px; font-size: 36pt; Xwidth: max-content; font-family: 'BankGothic Lt BT';} 
+
+.cPicture1 {Xborder: 1px blue solid; width: 400px}
+.paragWhat {font-size: 40pt; margin-top: 0; margin-bottom: 50px;}
+.cContact {Xborder: 1px blue solid; clear: both;
+                  width: 100%; margin-top: 10px; margin-bottom: 50px; height: 50px;}
+.cUnderContact {Xborder: 1px red solid; margin-right: 20%; float: right; margin-top: auto; margin-bottom: auto; width: 200px}
+.cSiteNavigation{Xborder: 5px red solid;  float: right; margin-left:40%; font-size: 14pt; margin-top: auto; margin-bottom: auto; height: min-content}
+.linkNavigation {margin-right: 50px}
+
+
+div#hormenu {
+ display: none;
+width: 40px;
+float: right; margin-left:40%; font-size: 14pt; margin-top: 5px; margin-bottom: auto;
+
+padding: 0;
+Xborder: 3px solid black;
+background: xred;
+
+}
+div#hormenu ul
+{
+margin: 0;
+
+padding: 0;
+list-style-type: none;
+}
+div#hormenu li
+{
+
+margin: 0;
+
+padding: 0;
+Xborder: 5px solid red;
+color:black;
+}
+div#hormenu a
+{
+display: block;
+padding: 5px;
+
+
+text-decoration: none;
+}
+
+div#hormenu a:hover /*colore sfondo sotto menu*/
+{
+    
+background-color: #666666;
+color: #FFFFFF;
+text-decoration: underline;
+}
+div#hormenu li ul
+{
+display: none
+}
+div#hormenu li:hover ul
+{
+display: block;
+position: absolute;
+z-index:1;
+;
+padding: 0;
+margin: -5px 2px 0px -60px;
+width: 100px;
+border:1px solid black;
+background: white;
+}
+div#hormenu li li { border:none; ; }
+div#hormenu li li a { padding:2px 5px 10px 10px; }
+
+
+
+@media only screen and (max-width:1230px){
+    .cTitle{width: min-content;}
+    .cPictureDaniele{margin-left: 5px; margin-right: 0px;}
+    .cUnderAphorism {font-size: 4.5vw;}
+    
+        
+}
+@media only screen and (max-width:1000px){
+.cUnderPictureWhat{display: flow-root; width: 400px; margin-top: auto; margin-bottom: auto;}
+    
+    .cPicture {float: left; margin-left: auto; margin-right: auto; margin-bottom: 40px}
+    .cWhat {margin-bottom: 0; margin-top: auto; width:400px; 
+                   max-width: 500px; font-size: 14pt; float: left; margin-left: auto; margin-right: auto;}
+    
+    .cWhatandPicture{display: flex; justify-content: center; Xbackground-color: #666666; Xborder: 1px chocolate solid;
+                  text-align: justify; word-break: break-word; width: 100%;  height:max-content; 
+                  color: white;}
+    .cContact {display: flex; justify-content: center;}
+    .cUnderContact {margin-right: 0px;}
+    .cSiteNavigation{display: none; text-align: center; width: 100px}
+    .linkNavigation {margin-right: 0; }
+    
+    div#hormenu {
+        display: inline;
+        
+width: 40px;
+padding: 0;
+Xborder-top: 4px solid yellow;
+background: xred;
+}
+}
+
+@media only screen and (max-width:800px){
+   .cTitleNameSurname {Xbackground-size:800px; Xheight: 100vw; Xmax-height: 300px;}
+   .cTitle{}
+   div#cReturnHome a {font-size: 20pt; margin-top: auto;margin-bottom: auto;}
+    
+}
+
+@media only screen and (max-width:480px){
+    .cUnderAphorism {font-size: 20pt;}
+    .cWhatandPicture{display: flex; justify-content: center;
+                width: 100%; height:max-content; 
+                  color: white;}
+    .cPicture1 {width:250px; margin-left: auto; margin-right: auto; Xmargin-left: 50px; }
+    .cWhat {margin-bottom: 0; margin-top: auto; width:250px; float: left; Xmargin-left: 50px; Xmargin-right: auto;}
+    .paragWhat {Xborder: 1px blue solid; width: max-content; font-size: 20pt;}
+    .cUnderPictureWhat {width: 250px; Xborder: 2px red solid;}
+   body{width: 90vw}
+   div#cReturnHome a {font-size: 18pt;}
+    .cPicture {float: left; margin-left: auto; margin-right: auto; width: min-content; margin-bottom: 40px}
+}

@@ -1,0 +1,44 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 27 ott 2022, 14:04:16
+    Author     : mrcdn
+*/
+
+Xbody {background: black; word-break: break-word; font-family: calibri, arial; margin: 0px;}
+.cTotal2 {justify-content: center; display: flex;}
+.cCenterTotal {width: 100%; max-width: 1170px;}
+.cSX {width: 40%; height: 100%; float: left; background: #1b1717; color: #eee9de;}
+.cPictures {max-width: 200px; margin: 0 auto; margin-top: 50px; width: 70%}
+.cContacts {width: 70%; max-width: 200px; margin: 0 auto; margin-top: 50px;}
+.undercContacts {margin: 0 auto; width: 100%; margin-top: 20px; text-align: left;}
+.cEducation-Skills {width: 80%;max-width: 200px; margin: 0 auto; margin-top: 70px;}
+.undercEducation {margin: 0 auto; max-width: 200px; margin-top: 20px; text-align: left;}
+.cDX {width: 60%; float: left; text-align: justify; height: 100%; background: #eee9de;}
+.cMiaWilliams {clear: both; margin-top: 75px; height: 150px; width: 100%; }
+.undercMiaWilliams {margin-left: 20px; background: #827d7c;}
+.h3webDesigner {color: #bebebe; font-style: italic;}
+.cWorkExperience {width: 80%; margin: 0 auto;  margin-top: 80px; width: 80%;}
+.parWork {font-weight: bold; color: #ff6600; font-size: 14pt; margin: 0;}
+.year {color: #827d7c; margin: 0;}
+.cTitleJob {clear: both; width: 80%; margin: 0 auto; word-break: break-word; text-align: justify; color: #827d7c; margin-top: 100px;}
+.margin0 {
+    margin: 0;
+    }
+
+.cTotal2 a {color: #eee9de; text-decoration: none; font-weight: normal; font-style: normal;}
+.cTotal2 a:hover {color: #3869FC; text-decoration: underline;}
+.marginContacts {margin-top: 12px; margin-bottom: 12px}
+
+@media only screen and (max-width:450px)
+{
+    h1 {font-size:18pt;}
+    h2 {font-size: 13pt;}
+    body {font-size: 10pt}
+  /*  .undercContacts h2 {font-size: 13pt}*/
+    
+}
+ul {padding-left: 0; margin-left: 15px;}
+ol {list-style-type: disc;}
